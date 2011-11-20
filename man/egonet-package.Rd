@@ -12,6 +12,9 @@ ego-centric network measures, including Burt's effective size and aggregate cons
 import code suitable for a large number of adjacency matrices.
 
 This package depends on \code{\link[sna:sna]{sna} } but does not automatically import it during installation. Therefore if \code{\link[sna:sna]{sna}} is not already present in your system, install it (e.g. \code{install.packages("sna")} ).
+
+You can also use the free web application www.associazionerospo.org/egonet  which make use of egonet package and R to analyize your data.
+
 }
 
 \details{
