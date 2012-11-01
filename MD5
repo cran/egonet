@@ -1,6 +1,6 @@
-39c438be2d33317f774aebc748584aa1 *DESCRIPTION
-a963d959cc6b1bb98d650de3cc4488ef *NAMESPACE
+99949b87fadb3cb49dcab5a39e60cd7c *DESCRIPTION
+f9d761a3e3939bbdff932cea8fb4a993 *NAMESPACE
 b6ddb1cd4baca41a8a4fa14c324cfc2d *R/codiciegonet.r
-c2211bdfee668d567acb2e6643ea9b6f *man/egonet-package.Rd
-47bb69e9ffbda0ad781bde4fe34c5f27 *man/index.egonet.Rd
-0a58276be37b5c41cf0b790eeb128a42 *man/read.egonet.Rd
+23b3dca72857bf247397365b2bd24c44 *man/egonet-package.Rd
+0c3074f32114fc67f167fcd64b39f912 *man/index.egonet.Rd
+3e3bbd4ae1813684daa09e28d0cd8737 *man/read.egonet.Rd

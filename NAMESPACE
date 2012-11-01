@@ -1,1 +1,2 @@
 export(index.egonet,read.egonet)
+import(sna)

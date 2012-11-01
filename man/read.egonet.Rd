@@ -1,5 +1,5 @@
 \name{read.egonet}
-\Rdversion{1.1}
+\Rdversion{1.2}
 \alias{read.egonet}
 \title{ Reads ego-centric graph in table format and creates a matrix suitable for SNA.
 }
@@ -24,17 +24,14 @@ A square matrix containing the ego-centric network of the data in the file.
 \author{
 F. Gioachin, A. Sciandra, L. Finos  <livio@stat.unipd.it>
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+
 
 \seealso{
  \code{\link[utils:read.table]{read.table}}
 }
 \examples{
-dat <- read.egonet("http://associazionerospo.org/egonetdata/q1.csv")
+dat <- read.egonet("http://www.egonet.associazionerospo.org/egonetdata/q1.csv")
 
 dat
 }

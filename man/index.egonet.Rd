@@ -1,5 +1,5 @@
 \name{index.egonet}
-\Rdversion{1.1}
+\Rdversion{1.2}
 \alias{index.egonet}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{  Compute Burt's indexes (effective size and aggregate constraint) and other measure from sna package
@@ -26,31 +26,20 @@ index.egonet(dat, index = list("effsize", "constraint", "outdegree", "indegree",
 \item{subset}{Restricts the analysis to the nodes with at least one among the elements of \code{vector} in the name. If \code{vector = NULL} - the default - all the nodes of the graph are comprised.}
 \item{ego.name}{ column and row name given to the ego subject. The default is \code{EGO} }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The requested indices.
 }
 \references{
-%% Burt, R.S. (1992) ''Structural Holes. The Social Structure of Competition'', Cambridge (MA), Harvard University Press.
+Burt, R.S. (1992) ''Structural Holes. The Social Structure of Competition'', Cambridge (MA), Harvard University Press.
 }
 \author{
 A. Sciandra, F. Gioachin, L. Finos  <livio@stat.unipd.it>
 }
-\note{
-%%  ~~further notes~~
-}
+
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+
 \examples{
 
 # make a toy dataset
